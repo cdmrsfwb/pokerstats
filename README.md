@@ -1,11 +1,14 @@
 # pokerstats
 A python script for keeping track of poker stats and calculating rankings
 
+
 The script takes data for poker games from two text files and displays rankings based on performace over time, as well as stats for all games played. The average (starting) ranking is 1500
+
 
 The data needs to be entered in text files called "players.txt" and "games.txt". The python file is then executed to provide a visual output consisting of a players table and a games table, both of which can be sorted according to your needs by clicking on the headers.
 
 Players who have a € in front of their name in "players.txt" or who have not played at least five games will be exluded from the main tables. You can see all players by selecting "All Players" and entering the password "password".
+
 
 Sample data is provided to give a better idea of how to write down game results.
 
