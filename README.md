@@ -18,7 +18,7 @@ In "games.txt", each game should be separated from the next with a newline in be
 
   In case of a new date, it should be specified on the first line in the format $YYYY-MM-DD
   
-  On the next line should be the name of the game. If you want to use unconventional scoring (more on that later) use the suffix "unc". The suffix will not be displayed in the games table.
+  On the next line should be the name of the game. If you want to use unconventional scoring (more on that later) use the suffix "unc"
   
   On the next line should be the type of the game, eg "Tourney" or "Cash Game"
   
