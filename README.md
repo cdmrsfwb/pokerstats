@@ -2,6 +2,9 @@
 A python script for keeping track of poker stats and calculating rankings
 
 
+See the files "Sample Players.png" and "Sample Games.png" for a preview
+
+
 The script takes data for poker games from two text files and displays rankings based on performace over time, as well as stats for all games played. The average (starting) ranking is 1500
 
 
