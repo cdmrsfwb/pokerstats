@@ -26,3 +26,6 @@ In "games.txt", each game should be separated from the next with a newline in be
   On the next line should be the type of the game, eg "Tourney" or "Cash Game"
   
   On the final line, in case of a regular tourney with placements, you can simply write the IDs of players in order (separated by spaces), starting from the winner. In case of a Cash Game or any other game with unconventional scoring you need to add a coefficent after each ID showing how much they won or lost. In my games, I have used being up 100BB as equivalent to winning a tourney (coefficent 1) and losing 100BB as equivalent to coming in last (coefficent -1) and typically rounded the coefficents to one or two decimal places. So, +42BB would give a coefficent of 0.42.
+
+
+In calculating rank changes, the script takes into account the amount of games the player has played, the amount of players in the current game (if it's a tourney and not a cash game), the difference between the previous ranking of the player and the rankings of all the opponents and the result of the game. The more games a player has played the more accurate the rating.
