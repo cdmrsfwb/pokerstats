@@ -1,5 +1,5 @@
 # pokerstats
-A python script for keeping track of poker stats and calculating rankings
+A GUI / calculator for of poker games' stats and rankings
 
 
 See the files "Sample Players.png" and "Sample Games.png" for a preview
